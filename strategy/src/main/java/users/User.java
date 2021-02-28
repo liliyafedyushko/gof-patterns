@@ -8,11 +8,11 @@ public class User {
   private RegisterStrategy registerStrategy;
   private LogInStrategy logInStrategy;
 
-  public void register(){
+  public void register() {
     registerStrategy.register();
   }
 
-  public void login(){
+  public void login() {
     logInStrategy.logIn();
   }
 
