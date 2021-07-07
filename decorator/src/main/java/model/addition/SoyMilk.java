@@ -12,13 +12,13 @@ public class SoyMilk extends AdditionDecorator {
         this.beverage = beverage; // and set the value in constructor
     }
 
-    //this one is overridden from Addition
+    //this one is overridden from Beverage
     @Override
     public double cost() {
         return .20 + beverage.cost();
     }
 
-    // this one is overridden from Beverage
+    // this one is overridden from Addition
     @Override
     public String getDescription() {
         return beverage.getDescription() + ", Soy Milk";
